@@ -1,0 +1,471 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F8F5F2;
+    background-color: #EDE3C9;
+}
+
+/* Marck Script for accent font */
+
+#nav {
+    background-color: #E2725B;
+    height: auto;
+    font-size: 30px;
+    width: 100%;
+}
+
+.full-width-img {
+    width: 100vw;
+    height: 700px;
+    display: block;
+    object-fit: cover;
+}
+
+.tag-line {
+    background-color: #E2725B;
+    width: 100%;
+    font-family: "Marck Script", sans-serif;
+    font-size: 100px;
+    padding: 20px 0;
+}
+
+
+.diner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+
+.diner-text {
+    background-color: #E2725B;
+    width: 55%;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 1.7rem;
+    line-height: 3.2rem;
+    letter-spacing: .3rem;
+    padding-top: 20px;
+}
+
+.int2 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+
+.food {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+
+.food-text {
+    background-color: #E2725B;
+    line-height: 3.2rem;
+    letter-spacing: .2rem;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.footer {
+    background-color: #E2725B;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.food-pg-text-2 {
+    line-height: 2rem;
+    padding-top: -20px !important;
+}
+
+/* menu page*/
+.body-menu {
+    background-color: #EDE3C9;
+}
+
+.title {
+    color: #E2725B;
+    font-size: 5.5rem;
+}
+
+.menu-cat {
+    color: #E2725B;
+    font-family: "Marck Script", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.menu-cat::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 80%;
+    height: 3px;
+    border-radius: 50%;
+    border-bottom: 3px solid #E2725B;
+    transform: translateX(-50%);
+}
+
+.menu-item {
+    color: #E2725B;
+    font-size: 2rem;
+    margin-top: 55px;
+}
+
+.item-description {
+    font-size: 1.2rem;
+}
+
+/* reservations page */
+
+.calendar {
+    width: 50%;
+    background-color: #EDE3C9;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    color: #E2725B;
+}
+
+.res-btn {
+    background-color: #E2725B;
+    font-family: "Raleway", sans-serif;
+    color: #EDE3C9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.res-btn:hover {
+    background-color: #e2725bcf;
+}
+
+.body-reservations {
+    background-image: url('/images/table.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.reservation-title {
+    width: auto;
+    background-color: #EDE3C9;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 10px 25px;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    color: #E2725B;
+    font-size: 5.5rem;
+    font-family: "Marck Script", sans-serif;
+}
+
+/* events page */
+
+.event-info {
+    color: #E2725B;
+    font-size: 1.5rem;
+}
+
+.event-form {
+    width: 50%;
+    background-color: #E2725B;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    color: #EDE3C9;
+}
+
+.event-btn {
+    background-color: #EDE3C9;
+    font-family: "Raleway", sans-serif;
+    color: #E2725B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.event-btn:hover {
+    background-color: #ede3c9d6;
+}
+
+/* about page */
+
+.ingredients {
+    width: 95%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    margin-top: 90px;
+}
+
+.about-headline {
+    color: #E2725B;
+    font-family: "Marck Script", sans-serif;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.about-info {
+    color: #E2725B;
+    margin-top: 25px;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.about-images {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* food page */
+
+.food-title {
+    width: 50%;
+    background-color: #E2725B;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    color: #EDE3C9;
+    font-size: 5.5rem;
+    font-family: "Marck Script", sans-serif;
+}
+
+.food-pg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    /* aspect-ratio: 16 / 9; */
+}
+
+.food-pg-text {
+    color: #E2725B;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+}
+
+/* dropdown menu */
+
+/* .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #F8F5F2;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+} */
+
+
+/* media query for small screen/cell  */
+
+@media (max-width: 576px) {
+    .diner-text {
+        height: auto;
+    }
+
+    #nav {
+        max-width: 100%;
+        padding: 0 15px;
+        font-size: 25px;
+        background-color: #EDE3C9;
+    }
+
+    #nav .row>div {
+        border: 4px solid #EDE3C9;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-width: 100px;
+        margin-bottom: 5px;
+        background-color: #E2725B;
+        color: #F8F5F2;
+    }
+
+    .tag-line {
+        font-size: 5rem;
+        margin-top: -28px;
+    }
+
+    .tagline-row {
+        margin-top: 25px;
+    }
+
+    .full-width-img {
+        margin-top: 20px;
+    }
+
+    .diner-text {
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+
+    .food-text {
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .box {
+        height: 75px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        background-color: #e9ddc5;
+        color: #a2a1a0;
+    }
+
+    /* events page */
+    .events-heading {
+        margin-top: -25px;
+    }
+
+    .event-form {
+        width: 90%;
+    }
+
+    /* reservations page */
+
+    .calendar {
+        width: 85%;
+    }
+
+    /* events page  */
+
+    .event-info {
+        margin-top: 55px;
+    }
+
+    /* food page  */
+
+    .food-title {
+        width: 95%;
+    }
+
+    .food-pg-text-2 {
+        margin-top: 35px;
+    }
+
+    /* dropdown menu */
+
+    /* .main-nav {
+        display: none;
+
+    } */
+}
+
+/* media query for medium screen/tablet  */
+
+@media (min-width: 577px) and (max-width: 1024px) {
+
+    /* .toggle-button .bar {
+        display: none;
+    } */
+
+    #nav {
+        max-width: 100%;
+        padding: 0 15px;
+        font-size: 20px;
+        background-color: #EDE3C9;
+    }
+
+    #nav .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+    }
+
+    #nav .row>div {
+        border: 4px solid #EDE3C9;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex: 1;
+        min-width: 100px;
+        margin-bottom: 25px;
+        background-color: #E2725B;
+    }
+
+    .logo {
+        height: 54px;
+    }
+
+    .diner-text {
+        width: 40%;
+        margin-left: 50px;
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        height: auto;
+        min-height: 100%;
+    }
+
+    /* event page */
+
+    .event-info {
+        margin-top: 50px;
+    }
+
+    .event-form {
+        width: 80%;
+    }
+
+    /* food page  */
+
+    .food-title {
+        width: 85%;
+    }
+
+    .food-pg-text-2 {
+        margin-top: 35px;
+    }
+}
